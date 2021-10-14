@@ -133,6 +133,7 @@ module.exports = class BinarySearchTree {
         return list;
       }
     } 
+    
     function nodeMin(list_l) {
       let list = list_l;
       let value = list.data;
