@@ -33,16 +33,16 @@ module.exports = function removeKFromList(l, k) {
 
     let list = {
         value: res[0],
-        next: {
-          value: res[1],
-          next: {
-            value: res[2],
             next: {
-              value: res[3],
-              next: null
+                value: res[1],
+                next: {
+                    value: res[2],
+                    next: {
+                        value: res[3],
+                        next: null
+                    }
+                }
             }
-          }
-        }
-      };
+        };
     return list;
 }
